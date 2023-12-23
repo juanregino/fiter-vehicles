@@ -107,7 +107,8 @@ width: 250px;
   width: 100%;
   min-height: 80vh; /* Ajustado para 700px */
   background-image: url('../img/bg.jpg');
-  background-size: cover;
+  background-size: contain;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,13 +119,18 @@ width: 250px;
   padding-top: 30px; /* Ajustado para 700px */
 }
 
+label{
+  font-size: 12px;
+  
+}
+
 .container h1, .container-cards h1 {
-  font-size: 40px; /* Ajustado para 700px */
+  font-size: 30px; /* Ajustado para 700px */
 }
 
 .cont-select select {
   width: 100%; /* Ajustado para 700px */
-  max-width: 300px; /* Ajustado para 700px */
+  max-width: 280px; /* Ajustado para 700px */
 }
 
 /* CARDS */
@@ -144,7 +150,7 @@ width: 250px;
 }
 
 .container-cards .card p {
-  font-size: 14px; /* Ajustado para 700px */
+  font-size: 15px; /* Ajustado para 700px */
 }
 
 }
